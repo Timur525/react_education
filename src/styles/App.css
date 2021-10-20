@@ -41,3 +41,22 @@ h2{
     transform: translateX(-350px);
     transition: all 500ms ease-in;
 }
+
+.page__wrapper{
+    margin: 30px auto 30px;
+    display: flex;
+    justify-content: center;
+}
+.page{
+    padding: 5px;
+    margin: 0 3px;
+    width: 30px;
+    height: 30px;
+    text-align: center;
+    border: 1px solid teal;
+    cursor: pointer;
+}
+.page__current{
+    border: 2px solid orange;
+    font-weight: 700;
+}
